@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja João Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>JOÃO STORE</h1>
+  <div class="cart-icon" onclick="toggleCart()">
+    🛒 <span id="cart-count">0</span>
+  </div>
+</header>
+
+<section class="produtos" id="produtos">
+</section>
+
+<!-- Carrinho -->
+<div class="cart" id="cart">
+  <h2>Seu Carrinho</h2>
+  <div id="cart-items"></div>
+  <p>Total: R$ <span id="total">0.00</span></p>
+  <button onclick="finalizarCompra()">Finalizar no WhatsApp</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
