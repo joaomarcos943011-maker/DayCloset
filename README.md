@@ -1,2 +1,2 @@
 # DayCloset
-Loja de Roupa Virtual
+DayCloset Loja de Roupa Virtual
